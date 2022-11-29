@@ -1,0 +1,18 @@
+1. Dataset was downloaded as an excel file from the United States Geological Survey (USGS), the file on the webpage can be identified as: usco2015v2.0.xlsx “All Data XLSX”. 
+2. The original dataset contained 3225 observations, in which 141 variables were in existence (1). The huge number of variables was due to each state having each of its counties categorized with information for all variables. 
+3. The original dataset was saved independently to avoid modifying base information. 
+4. A new copy of data was saved using the "save as" option, including in the file names clear distinctions between the original and modified/tidied version. 
+5. A new glossary sheet was included in the excel data file to define the studied states, avoiding potential confusion about which numbers correspond to each territory. 
+6. The copied table was highlighted to separate states and water usage categories according to required and usable information. 
+7. Highlighting was not included in posterior versions of tables and graphs to avoid formatting problems in excel and CSV files. 
+8. Using a pivot table, states were more easily categorized with their respective full names; online FIPS (Federal Information Processing Standards) codes, according to The Federal Communications Commission (FCC) are used by the United States government to identify states and counties by their FIPS codes. State-level FIPS codes have two digits, and county-level FIPS codes have five digits of which the first two are the FIPS code of the state to which the county belongs (3). 
+9. Only overall state data was utilized to prevent an overflow of information and to create more readable and understandable tables and graphs. 
+10. Pivot tables were used to perform adequate sums of freshwater usage (in millions of gallons per day) and acres irrigated (in thousand acres) throughout the required categories. 
+11. Tidying was relatively easy thanks to the DataDictionary attached in one of the original dataset sheets. 
+12. Three new tables were created to summarize findings in general; arranging all information by all states would have been messy and unreadable. 
+13. Three charts were formulated from the aforementioned tables by creating summarized tables that entailed all sums in just three categories for each. 
+14. Through the use of Camel Casing tables were created to avoid problems with spaces. 
+15. Also, by using the conversion factor 0.8921, thousand acre-feet per year were transformed into approximations of million gallons per day (Mgal/d) (8). 
+16. At last, charts’ titles and axis titles were modified as appropriate to ensure a correct correlation between data and its corresponding names. 
+17. It is also worth noting that each chart was created using corresponding tables, and all resulting graphs along with their base data are organized in individual sheets inside of the same workbook to ensure availability. 
+18. Pivot tables were vital to save time and to ensure that human error was not an obstacle when making accurate sums for all counties of each state.
